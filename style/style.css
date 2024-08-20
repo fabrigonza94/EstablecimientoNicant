@@ -11,7 +11,7 @@
   font-style: normal;
 } */
 
-/*Estilo Header*/
+/**Estilo Header**/
  header a{
     font-family: "Inter", sans-serif;
     font-weight: 600 !important;
@@ -23,7 +23,7 @@
     height: auto;
 }
 
-/*Estilo Portada*/
+/**Estilo Portada**/
 .portada{
     background-image: url(../img/portada.png);
     background-position: center;
