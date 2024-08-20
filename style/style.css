@@ -1,4 +1,3 @@
-
 /*Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 /* // <uniquifier>: Use a unique and descriptive class name
@@ -12,38 +11,54 @@
 } */
 
 /**Estilo Header**/
- header a{
+header a {
     font-family: "Inter", sans-serif;
     font-weight: 600 !important;
     color: #296BBE !important;
     font-size: 1.3rem !important;
 }
-.img-logo{
+
+.img-logo {
     width: 140px;
     height: auto;
 }
 
 /**Estilo Portada**/
-.portada{
+.portada {
     background-image: url(../img/portada.png);
     background-position: center;
     background-size: cover;
     height: 40rem;
     color: beige;
 }
-.titulo{
+
+.titulo {
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 6rem;
     margin-left: 1rem;
+
 }
-.sub-titulo{
+
+@media (max-width: 600px) {
+    .titulo {
+        font-size: 2.8rem;
+    }
+    .sub-titulo{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+};
+
+.sub-titulo {
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 1.5rem;
     margin-left: 1rem;
 }
-.boton-contacto{
+
+.boton-contacto {
     background-color: #296BBE;
     font-family: "Inter", sans-serif;
     font-weight: 700;
