@@ -82,8 +82,50 @@ header a {
 }
 
 /*Estilo Sobre nosotros*/
-
+.marginTittle{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    word-spacing: 0.5rem;
+}
+.tituloSobreNosotros{
+    font-family: "Inter", sans-serif;
+    color: #296BBE;
+    font-size: 3rem;
+    font-weight: 900;
+}
 .sobre-nosotros{
     display: flex;
     flex-direction: row;
+    height: 30rem;
+}
+.imgNosotros{
+    display: flex;
+    width: 50rem;
+    height: auto;
+}
+.tituloEstablecimiento{
+    font-family: "Inter", sans-serif;
+    color: #296BBE;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+}
+.pEstablecimiento{
+    font-family: "Inter", sans-serif;
+    color: #296BBE;
+    font-weight: 500;
+}
+.cajaNosotros{
+    margin-right: 12rem;
+    margin-left: 2.5rem;
+}
+.buttonInfo{
+    font-family: "Inter", sans-serif;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 700;
+    background-color: #296BBE;
+    margin-top: 3.5rem;
+    padding: 0.7rem 4rem 0.7rem 4rem;
+    border-radius: 5rem;
 }
