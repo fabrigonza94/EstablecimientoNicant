@@ -112,6 +112,7 @@ header a {
 }
 .pEstablecimiento{
     font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
     color: #296BBE;
     font-weight: 500;
 }
@@ -125,7 +126,7 @@ header a {
     color: white;
     font-weight: 700;
     background-color: #296BBE;
-    margin-top: 3.5rem;
+    margin-top: 1rem;
     padding: 0.7rem 4rem 0.7rem 4rem;
     border-radius: 5rem;
 }
