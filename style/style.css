@@ -129,4 +129,5 @@ header a {
     margin-top: 1rem;
     padding: 0.7rem 4rem 0.7rem 4rem;
     border-radius: 5rem;
+    border: none;
 }
