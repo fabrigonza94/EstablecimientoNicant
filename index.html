@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+    <header class="navbar-position">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary  ">
             <div class="container-fluid ">
                 <div>
                     <a href="index.html"><img class="img-logo" src="img/logo.png"
@@ -24,7 +24,7 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse d-flex justify-content-around " id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link" href="#">Inicio</a>
                         <a class="nav-link active" aria-current="page" href="#sobreNosotros">Sobre Nosotros</a>
@@ -49,11 +49,11 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section >
             <div class=" marginTittle container-fluid d-flex justify-content-center h-5 w-5">
-                <h2 class="tituloSobreNosotros">Sobre Nosotros</h2>
+                <h2 class="tituloSobreNosotros" id="sobreNosotros" >Sobre Nosotros</h2>
             </div>
-            <div class="sobre-nosotros" id="sobreNosotros">
+            <div class="sobre-nosotros" >
                 <div class="cajaNosotros">
                     <h2 class="tituloEstablecimiento">Establecimiento Nicant</h2>
                     <p class="pEstablecimiento">Somos una empresa familiar con más de 80 años de
@@ -76,6 +76,29 @@
                 </div>
 
             </div>
+        </section>
+        <section>
+            <div class="container-fluid d-flex justify-content-center">
+                <h2>Productos</h2>
+            </div>
+            <div class="d-flex justify-content-between caja-productos">
+                <div>
+                    <img src="./img/colonia.png" alt="Queso Colonia">
+                    <h4>Queso Colonia</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit laboriosam porro sit aspernatur soluta fuga magnam pariatur deserunt nesciunt eligendi, non id explicabo doloremque. Qui libero amet ea iusto doloribus.</p>
+                </div>
+                <div>
+                    <img src="./img/emmenthal.png" alt="Queso emmenthal">
+                    <h4>Queso Emmenthal</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit laboriosam porro sit aspernatur soluta fuga magnam pariatur deserunt nesciunt eligendi, non id explicabo doloremque. Qui libero amet ea iusto doloribus.</p>
+                </div>
+                <div>
+                    <img src="./img/masdaam.png" alt="Queso masdaam">
+                    <h4>Queso Masdaam</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit laboriosam porro sit aspernatur soluta fuga magnam pariatur deserunt nesciunt eligendi, non id explicabo doloremque. Qui libero amet ea iusto doloribus.</p>
+                </div>
+            </div>
+            
         </section>
     </main>
 

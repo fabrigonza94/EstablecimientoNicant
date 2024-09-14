@@ -30,7 +30,10 @@ header a {
 .nav-link {
     margin-left: 2rem;
 }
-
+.navbar-position{
+    position: sticky;
+    top: 0px;
+}
 /**Estilo Portada**/
 .portada {
     background-image: url(../img/portada.png);
@@ -130,4 +133,9 @@ header a {
     padding: 0.7rem 4rem 0.7rem 4rem;
     border-radius: 5rem;
     border: none;
+}
+/*Estilo productos*/
+.caja-productos{
+    width: 100%;
+    margin-left: 5rem;
 }
